@@ -176,21 +176,76 @@
 
 
 
-//0. Write a program to initialize a variable with some number and do arithmetic in following sequence:
-document.write("<h1><big><b>"+ "Perform all calculations in a single expression" +"</h1></big></b>");
-var num1 = 8000;
-document.write("<b>" +"Number 1 =  "+ num1 +"</b>");
-//a. Add 5
-var num1 = num1 + 5;
-document.write("<br><br>" + "<b>" +"Add 5 = "+ num1 +"</b>");
-//b. Multiply by 10
-var num1 = num1 * 10;
-document.write("<br><br>" + "<b>" +"Multiply by 10 =  "+ num1 +"</b>");
-//c. Divide the result by 2
-var num1 = num1 / 2;
-document.write("<br><br>" + "<b>" +"Divide the result by 2 =  "+ num1 +"</b>");
-//Perform all calculations in a single expression
-document.write("<br><br>" + "<b>" +"Perform all calculations in a single expression =  "+ num1 +"</b>");
+// //10. Write a program to initialize a variable with some number and do arithmetic in following sequence:
+// document.write("<h1><big><b>"+ "Perform all calculations in a single expression" +"</h1></big></b>");
+// var num1 = 8000;
+// document.write("<b>" +"Number 1 =  "+ num1 +"</b>");
+// //a. Add 5
+// var num1 = num1 + 5;
+// document.write("<br><br>" + "<b>" +"Add 5 = "+ num1 +"</b>");
+// //b. Multiply by 10
+// var num1 = num1 * 10;
+// document.write("<br><br>" + "<b>" +"Multiply by 10 =  "+ num1 +"</b>");
+// //c. Divide the result by 2
+// var num1 = num1 / 2;
+// document.write("<br><br>" + "<b>" +"Divide the result by 2 =  "+ num1 +"</b>");
+// //Perform all calculations in a single expression
+// document.write("<br><br>" + "<b>" +"Perform all calculations in a single expression =  "+ num1 +"</b>");
+
+
+
+
+
+// //The Age Calculator: Forgot how old someone is? Calculate it!
+// //a. Store the current year in a variable.
+// let currentYear = 2023;
+// //b. Store their birth year in a variable.
+// let birthYear = 1999;
+// //c. Calculate their 2 possible ages based on the stored values.
+// let age1 = currentYear - birthYear;
+// let age2 = currentYear - birthYear - 3;
+// //d. Display the result.
+// document.write("<h1><big><b>"+ "Calculate their 2 possible ages based on the stored values" +"</h1></big></b>");
+// document.write("<b>" +"Age 1 =  "+ age1 +"</b>");
+// document.write("<br><br>" + "<b>" +"Age 2 =  "+ age2 +"</b>");
+
+
+
+
+
+// //12. The Geometrizer: Calculate properties of a circle.
+// //a. Store a radius into a variable.
+// let radius = 8;
+// //b. Calculate the circumference based on the radius
+// let circumference = 2 * 3.142 * radius;
+// //c. Calculate the area based on the radius
+// let area = 3.142 * radius * radius;
+// document.write("<h1><big><b>"+ "Calculate properties of a circle" +"</h1></big></b>");
+// document.write("<b>" +"Radius =  "+ radius +"</b>");
+// document.write("<br><br>" + "<b>" +"Circumference =  "+ circumference +"</b>");
+// document.write("<br><br>" + "<b>" +"Area =  "+ area +"</b>");
+
+
+
+
+
+// //13. The Lifetime Supply Calculator: Ever wonder how much a “lifetime supply” of your favorite snack is? Wonder no more.
+// // a. Store your favorite snack into a variable
+// let favSnack = "Lays";
+// //b. Store your current age into a variable
+// let currentAge = "24";
+// //c. Store a maximum age into a variable.
+// let maxAge = "65";
+// //d. Store an estimated amount per day (as a number).
+// let estimatedAmount = 1;
+// //e. Calculate how many would you eat total for the rest of your life.
+// let restOfLifeSupply = estimatedAmount * (maxAge - currentAge);
+// document.write("<h1><big><b>"+ "The Lifetime Supply Calculator" +"</h1></big></b>");
+// document.write("<b>" +"Your favorite snack =  "+ favSnack +"</b>");
+// document.write("<br><br>" + "<b>" +"Your current age =  "+ currentAge +"</b>");
+// document.write("<br><br>" + "<b>" +"Your maximum age =  "+ maxAge +"</b>");
+// document.write("<br><br>" + "<b>" +"Estimated amount per day =  "+ estimatedAmount +"</b>");
+// document.write("<br><br>" + "<b>" +"You will need " +favSnack+ " to last you until the ripe old age of "+ restOfLifeSupply +"</b>");
 
 
 
