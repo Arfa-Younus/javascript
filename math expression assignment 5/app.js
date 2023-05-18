@@ -129,6 +129,76 @@
 
 
 
+// //Write a program to implement checkout process of a shopping cart system for an e-commerce website. Store the following in variables
+// document.write("<h1><big><b>"+ "Shopping Cart" +"</h1></big></b>");
+// //a. Price of item 1
+// let priceOfItem1 = 5000;
+// //b. Price of item 2
+// let priceOfItem2 = 10000;
+// //c. Ordered quantity of item 1
+// let quantityOfItem1 = 6;
+// //d. Ordered quantity of item 2
+// let quantityOfItem2 = 7;
+// //e. Shipping charges
+// let shippingCharges = 500;
+// document.write("Price of item 1 = " + "<b>"+ priceOfItem1 +"</b>"+ "<br><br>"+"Price of item 1 = "  + "<b>"+  priceOfItem2 +"</b>"+ "<br><br>"+"Ordered quantity of item 1 = "+ "<b>"+ quantityOfItem1 + "</b>"+"<br><br>" +"Ordered quantity of item 2 = "+ "<b>"+ quantityOfItem2 +"</b>"+"<br><br>"+"Shipping charges = "+ "<b>" + shippingCharges + "</b>"+"<br><br>");
+// //Compute the total cost & show the receipt in your browser.
+// let totalCost = (priceOfItem1 * quantityOfItem1) + (priceOfItem2 * quantityOfItem2) + shippingCharges;
+// document.write( "<big><b>"+ "Total Cost :  " + totalCost + "</big></b>");
+
+
+
+
+
+
+// //8. Store total marks & marks obtained by a student in 2 variables. Compute the percentage & show the result in your browser
+// document.write("<h1><big><b>"+ "Percentage is...." +"</h1></big></b>");
+// let totalMarks = 100;
+//  let marksObtained = 80;
+//  let percentage = (marksObtained / totalMarks) * 100;
+//  document.write("Total Marks = " + "<b>" + totalMarks + "</b>" + "<br><br>" + "Marks Obtained= " + "<b>" + marksObtained + "</b>" + "<br><br>" );
+//  document.write("Percentage is = "  + "<b>" + percentage + "%" + "</b>");
+
+
+
+
+// //Assume we have 10 US dollars & 25 Saudi Riyals. Write a script to convert the total currency to Pakistani Rupees. Perform all calculations in a single expression.(Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee and 1 Saudi Riyal = 28 Pakistani Rupee)
+// document.write("<h1><big><b>"+ "Currency in PKR..." +"</h1></big></b>");
+// let dollar = 1000;
+// let riyal = 25000;
+// let dollarToRuppes = dollar * 284.92;
+// let riyalToRupees = riyal * 75.97;
+// let totalAmount = dollarToRuppes + riyalToRupees;
+// document.write("<b>" + "Dollar = "  + dollar + "$" + "<br><br>" + "Riyal = "  + "<b>" + riyal + " SAR" + "<br><br>");
+// document.write("Total Amount = " + "<b>" + totalAmount + " Rupees"+"</b>");
+
+
+
+
+
+//0. Write a program to initialize a variable with some number and do arithmetic in following sequence:
+document.write("<h1><big><b>"+ "Perform all calculations in a single expression" +"</h1></big></b>");
+var num1 = 8000;
+document.write("<b>" +"Number 1 =  "+ num1 +"</b>");
+//a. Add 5
+var num1 = num1 + 5;
+document.write("<br><br>" + "<b>" +"Add 5 = "+ num1 +"</b>");
+//b. Multiply by 10
+var num1 = num1 * 10;
+document.write("<br><br>" + "<b>" +"Multiply by 10 =  "+ num1 +"</b>");
+//c. Divide the result by 2
+var num1 = num1 / 2;
+document.write("<br><br>" + "<b>" +"Divide the result by 2 =  "+ num1 +"</b>");
+//Perform all calculations in a single expression
+document.write("<br><br>" + "<b>" +"Perform all calculations in a single expression =  "+ num1 +"</b>");
+
+
+
+
+
+
+
+
 
 
 
