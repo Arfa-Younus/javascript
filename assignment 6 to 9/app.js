@@ -65,4 +65,5 @@
   // let total = marksOne + marksTwo + marksThree;
   // let percentage = (total / totalMarks) * 100;
   // document.write("Total Marks = " + total + "<br>" + "Percentage = " + percentage + "%")
-  
+
+
