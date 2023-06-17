@@ -125,6 +125,99 @@
 // document.write("<h2><b>"+ "Grade : " +  Grade + "</h2></b>");
 // document.write("<h2><b>"+ "Remarks : " +  Remarks + "</h2></b>");
 
+// // 7. Guess game:
+// // Store a secret number (ranging from 1 to 10) in a variable.
+// let secretNum = 4;
+// // Prompt user to guess the secret number.
+// let userGuess = prompt("Guess the number");
+// // a. If user guesses the same number, show “Bingo! Correct answer”.
+// if(userGuess == secretNum){
+//     alert("Bingo! Correct answer");
+// }
+// // b. If the guessed number +1 is the secret number, show “Close enough to the correct answer”.
+// else if(userGuess == (secretNum + 1)){
+//     alert("Close enough to the correct answer");
+// }
+// else{
+//     alert("Wrong answer");
+// }
 
+
+
+
+// //8. Write a program to check whether the given number is divisible by 3. Show the message to the user if the number is divisible by 3.
+// let num = prompt("Enter a number");
+// if(num % 3 == 0){
+//     alert("The number is divisible by 3");
+// }
+// else{
+//     alert("The number is not divisible by 3");
+//     }
+
+
+
+
+// // 9. Write a program that checks whether the given input is an even number or an odd number.
+// let num = prompt("Enter a number");
+// if(num % 2 == 0){
+//     alert("The number is even");
+// }
+// else{
+//     alert("The number is odd");
+//     }
+
+
+
+
+
+// // 10. Write a program that takes temperature as input and shows a message based on following criteria
+// // a. T > 40 then “It is too hot outside.”
+// let temp = prompt("Enter temprature");
+// if(temp > 40){
+//     alert("It is too hot outside.");
+//     }
+//     // b. T > 30 then “The Weather today is Normal.”
+//     else if(temp > 30){
+//         alert("The Weather today is Normal.");
+//     }
+//     // c. T > 20 then “Today’s Weather is cool.”
+//     else if(temp > 20){
+//         alert("Today's Weather is cool.");
+//         }
+//         // d. T > 10 then “OMG! Today’s weather is so Cool.”
+//         else if(temp > 10){
+//             alert("OMG! Today's weather is so Cool.");
+//             }
+
+
+
+
+// // 11. Write a program to create a calculator for +,-,*, / & % 
+// // using if statements. Take the following input:
+// // a. First number
+// let num1 = +prompt("Enter value 1");
+// // b. Second number
+// let num2 = +prompt("Enter value 2");
+// // c. Operation (+, -, *, /, %)
+// let op = prompt("Enter operation");
+// // d. Calculate the result
+// if(op == "+"){
+//     alert(num1 + num2);
+//     }
+//     else if(op == "-"){
+//         alert(num1 - num2);
+//         }
+//         else if(op == "*"){
+//             alert(num1 * num2);
+//             }
+//             else if(op == "/"){
+//                 alert(num1 / num2);
+//                 }
+//                 else if(op == "%"){
+//                     alert(num1 % num2);
+//                     }
+//                     else{
+//                         alert("Invalid operation");
+//                     }
 
 
